@@ -1,29 +1,62 @@
-/* Общие стили для всех страниц */
-#page1, #page2, #page3, #page4, #page5 {
+#page1 {
   color: black;
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 20px;
+max-width: 100%;
+  height: 200px;
+  margin: 60px;
+  padding: 50px;
   text-align: center;
   box-shadow: 0px 0px 35px black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh; /* занимает весь экран */
-  box-sizing: border-box;
 }
 
-/* Контейнер кнопок */
+#page2 {
+color: black;
+max-width: 100%;
+  height: 200px;
+  margin: 60px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0px 0px 30px black;
+  display: flex;
+  flex-direction: column;   /* Элементы идут друг за другом сверху вниз */
+  min-height: 200px;        /* Или ваша фиксированная высота */
+}
+
+}
+
+#page3 {
+color: black;
+max-width: 100%;
+  height: 200px;
+  margin: 60px;
+  padding: 50px;
+  text-align: center; 
+  box-shadow: 0px 0px 35px black;
+}
+
+#page4 {
+color: black;
+max-width: 100%;
+  height: 200px;
+  margin: 60px;
+  padding: 50px;
+  text-align: center; 
+  box-shadow: 0px 0px 35px black;
+}
+
+#page5 {
+color: black;
+max-width: 100%;
+  height: 200px;
+  margin: 60px;
+  padding: 50px;
+  text-align: center; 
+  box-shadow: 0px 0px 35px black;
+}
 .button-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 20px 0;
+  display: flex;            /* Включаем Flexbox */
+  justify-content: space-around; /* Распределяем кнопки равномерно */
+  align-items: center;      /* Центрируем по вертикали */
+  margin-top: auto;         /* Прижмет контейнер к низу, если у родителя display: flex */
+  padding: 20px 0;          /* Отступы сверху и снизу */
 }
 
-/* Промпты */
-.prompt-quality, .prompt-aspect, .prompt-style {
-  text-align: left;
-  margin-top: 20px;
-  white-space: pre-line; /* переносы строк */
-}

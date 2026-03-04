@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Prompts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="page1">
+  <h1>FREE PROMPTS</h1>
+  <p>TAP TO GET THEM</p>
+  <button onclick="goToPage2()">TAP HERE</button>
+</div>
+
+<div id="page2" style="display:none;">
+  <h2>Hello</h2>
+  <p2>CHOOSE</p2>
+  <div class="button-container">
+    <button onclick="goToPage3()">Quality</button>
+    <button onclick="goToPage4()">Aspect Ratio</button>
+    <button onclick="goToPage5()">Style</button>   
+  </div>
+</div>
+
+<div id="page3" style="display:none;">
+  <h3>Quality</h3>
+  <p3>PROMPTS</p3>
+  <button onclick="backFromPage3()">GO BACK</button>
+</div>
+
+<div id="page4" style="display:none;">
+  <h4>Aspect Ratio</h4>
+  <p4>PROMPTS</p4>
+  <button onclick="backFromPage4()">GO BACK</button>
+</div>
+
+<div id="page5" style="display:none;">
+  <h5>Style</h5>
+  <p5>PROMPTS</p5>
+  <button onclick="backFromPage5()">GO BACK</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 max-width: 100%;
   min-height: 200%;
   margin: 20px;
-  padding: 50px;
+  padding: 100px;
   text-align: center;
   box-shadow: 0px 0px 35px black;
 }
@@ -13,12 +13,12 @@ color: black;
 max-width: 100%;
   min-height: 200%;
   margin: 20px;
-  padding: 50px;
+  padding: 100px;
   text-align: center;
   box-shadow: 0px 0px 30px black;
   display: flex;
   flex-direction: column;   /* Элементы идут друг за другом сверху вниз */
-  min-height: 200px;        /* Или ваша фиксированная высота */
+  min-height: 200%;      /* Или ваша фиксированная высота */
 }
 
 
@@ -26,8 +26,8 @@ max-width: 100%;
 color: black;
 max-width: 100%;
   min-height: 200%;
-  margin: 20px;
-  padding: 30px;
+  margin: 2px;
+  padding: 5px;
   text-align: center; 
   box-shadow: 0px 0px 35px black;
 }
@@ -36,8 +36,8 @@ max-width: 100%;
 color: black;
 max-width: 100%;
   min-height: 200%;
-  margin: 20px;
-  padding: 30px;
+  margin: 2px;
+  padding: 5px;
   text-align: center; 
   box-shadow: 0px 0px 35px black;
 }
@@ -46,8 +46,8 @@ max-width: 100%;
 color: black;
 max-width: 100%;
 min-height: 200%;
-  margin: 20px;
- padding: 30px;
+  margin: 2px;
+ padding: 5px;
   text-align: center; 
   box-shadow: 0px 0px 35px black;
 }
@@ -55,7 +55,10 @@ min-height: 200%;
   display: flex;            /* Включаем Flexbox */
   justify-content: space-around; /* Распределяем кнопки равномерно */
   align-items: center;      /* Центрируем по вертикали */
-  margin-top: 30px;        /* Прижмет контейнер к низу, если у родителя display: flex */
-  padding: 20px 0;          /* Отступы сверху и снизу */
+  margin-top: 2px;     /* Прижмет контейнер к низу, если у родителя display: flex */
+  padding: 30px 0;          /* Отступы сверху и снизу */
+}
+h1  {
+text-shadow: 2px 2px 10px black;
 }
 
